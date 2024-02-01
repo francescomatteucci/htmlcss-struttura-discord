@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* HEADER DEBUG */
+.container{
+    border:2px solid black;
+    display:flex;
+}
+.row{
+    border:2px solid black;
+    width: 600px;
+    min-height:30px;
+}
+/* header layout */
+header .container{
+    min-height:50px;
+    display:flex;
+    justify-content:center;
+    padding:10px;
+    background-color: aquamarine;
+}
+header .row{
+    display:flex;
+    background-color: yellow;
+}
+header .col-25, .col-50{
+    border:2px solid black;
+    flex-grow: 1;
+  
+}
+header .col-25{
+    display: flex;
+    justify-content:space-between;
+}
+header .col-50{
+    border:2px solid black;
+    flex-grow:3;
+    
+}
